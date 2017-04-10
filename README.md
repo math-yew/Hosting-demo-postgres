@@ -188,6 +188,9 @@ When you have changes that you want to bring into the project.  Make sure that y
 ```forever restartall``` (server changes) Restart the server to bring in the new server changes
 
 ### Useful Forever Commands
+Used for starting react:
+forever start -c "npm start" ./
+forever start -c "npm run watch" ./
 
 To see the currently running processes: ```forever list```
 
