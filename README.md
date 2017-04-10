@@ -102,9 +102,11 @@ npm i -g npm
 ## Swap -- Optional
 
 check amount of swap:
+
 free -m
 
 check harddrive space:
+
 df -h
 
 
@@ -175,7 +177,9 @@ We can also set up the forever list to show the folder the script was ran from. 
 Then we will start the process running.
 
 ```sh
+
 npm install -g forever
+
 forever start server/server.js
 ```
 
@@ -218,6 +222,8 @@ Or you can go with a DB as a service such as [ElephantSQL](https://www.elephants
 Unless you have lots of friends that enjoy accessing websites by ip (You know they exist) You'll want to route your domain to point at your server.  This is slightly different for each register.  Or you can tell the reigstrar to let Digital Ocean manage your routes.  [Here](https://github.com/zacanger/doc/blob/master/digital-ocean.md#domains) is a short description of how to set up Domain records.  
 
 ### NGINX - Optional
+
+https://www.nginx.com/resources/wiki/start/topics/tutorials/commandline/
 
 If you don't want to use port 80, or you want to put multiple projects on one droplet, we can do that with nginx
 
